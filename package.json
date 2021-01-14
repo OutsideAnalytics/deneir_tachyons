@@ -1,8 +1,8 @@
 {
-  "name": "tachyons",
-  "version": "4.12.0",
-  "description": "Functional CSS for humans",
-  "author": "mrmrs",
+  "name": "deneir_tachyons",
+  "version": "1.0.0",
+  "description": "Functional CSS for OutsideAnalytics",
+  "author": "Outside Analytics",
   "style": "css/tachyons.min.css",
   "main": "css/tachyons.css",
   "files": [
@@ -30,12 +30,8 @@
   },
   "contributors": [
     {
-      "name": "adam morse",
-      "email": "hi@mrmrs.cc"
-    },
-    {
-      "name": "john otander",
-      "url": "http://johnotander.com"
+      "name": "Robin Fisher", 
+      "email": "robin@outsideanalytics.com"
     }
   ],
   "scripts": {
