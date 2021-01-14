@@ -1,6 +1,6 @@
 # TACHYONS
 
-Functional CSS for humans.
+Functional CSS for humans. Our fork of `tachyons-css/tachyons` wwhich implements an AstroUXDS inspired style guide. 
 
 Quickly build and design new UI without writing CSS.
 
@@ -36,22 +36,13 @@ Quickly build and design new UI without writing CSS.
 Docs can be found at http://tachyons.io/docs
 The modules are generally pretty small and thus quick and easy to read.
 
-### Use the CDN
-
-The quickest and easiest way to start using Tachyons is to include a reference
-to the minified file in the head of your HTML file.
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
-```
-
 ### Local Setup
 
 Clone the repo from Github and install dependencies through npm.
 
 ```
-git clone https://github.com/tachyons-css/tachyons.git
-cd tachyons
+git clone https://github.com/OutsideAnalytics/deneir_tachyons.git
+cd deneir_tachyons
 npm install
 ```
 
@@ -89,50 +80,3 @@ generate and organize the documentation for components as demonstrated at http:/
 - [DWYL Learn Tachyons](https://github.com/dwyl/learn-tachyons): Learn how to use Tachyons to craft beautiful, responsive, functional and fast UI with minimal CSS
 - [Tachyons TLDR](https://tachyons-tldr.now.sh/#/classes): Quick lookup for Tachyons classes, scales and color palette
 - [Tachyons Pro](https://tachyons.pro/): Fun quiz for memorizing class names
-
-## Contributing
-
-Please read our [code of conduct](https://github.com/tachyons-css/tachyons/blob/master/code-of-conduct.md) for contributors.
-
-## Tachyons in Production
-
-A longer list of sites that use tachyons in production can be found in sites.md
-We love letting the community see what people are building. Please add your link to sites.md in a PR or by opening an issue if you're willing to share to your site or project.
-
-**Featured Sites**
-
-* https://interfacelovers.com
-* https://npmjs.com
-* https://womenwho.design
-* https://friendstalkfrontend.com
-* https://play.webvr.rocks
-* https://gohugo.io
-* https://coralproject.net
-* http://www.philipyoungg.com
-* https://gitpoint.co
-* https://2017.nodeconf.com.ar
-* https://goldenstaterecord.com
-* http://hicuties.com
-* https://urlbox.io
-* https://fontawesome.com
-* https://purple3.herokuapp.com
-* http://blunt.af/tachy.app/
-* https://fenderdigital.github.io/css-utilities/intro/
-* https://play.cash
-* https://bitmidi.com
-
-And of course...
-* http://tachyons.io
-
-## Sponsors
-
-Development of Tachyons is supported by
-
-* [Digital Ocean](https://digitalocean.com)
-* [DWYL](https://dwyl.com)
-* [VTEX](https://vtex.com)
-* [Manifold](https://manifold.co)
-
-## Help
-
-If you have a question or need help feel free to [open an issue here](https://github.com/tachyons-css/tachyons/issues/new) or jump into the [Tachyons slack channel](http://tachyons-slack-invite.herokuapp.com).
