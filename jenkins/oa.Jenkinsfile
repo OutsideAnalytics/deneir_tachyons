@@ -1,0 +1,23 @@
+
+pipeline {
+  agent { label 'docker' }
+  stages {
+    stage('Build') {
+      agent {
+        docker {
+          label 'docker'
+          alwaysPull true
+          image 'deneir/node-build:latest'
+          registryUrl 'https://419456231856.dkr.ecr.us-gov-west-1.amazonaws.com'
+        }       
+      }
+      steps {
+        sh '''
+        git clean -fxd
+        npm ci
+        npm run build
+        '''
+      }
+    }
+  }
+}
