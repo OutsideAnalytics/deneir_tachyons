@@ -9,6 +9,7 @@ pipeline {
           alwaysPull true
           image 'deneir/node-build:latest'
           registryUrl 'https://419456231856.dkr.ecr.us-gov-west-1.amazonaws.com'
+          args "-u root:root"
         }       
       }
       steps {
