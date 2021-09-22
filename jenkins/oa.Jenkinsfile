@@ -15,7 +15,7 @@ pipeline {
       steps {
         sh '''
         git clean -fxd
-        npm ci
+        npm i
         npm run build
         '''
       }
